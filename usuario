@@ -1,10 +1,10 @@
 <?php
 class Usuario {
-var $IdUsuario;
-var $ccUsuario;
-var $nomUsuario;
-var $apeUsuario;
-var  $contraUsuario;
+private $IdUsuario;
+private $ccUsuario;
+private $nomUsuario;
+private $apeUsuario;
+private  $contraUsuario;
 
 public function ingresarUsuario($user,$cc,$nombre,$apellido,$pwd){
 
