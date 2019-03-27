@@ -1,0 +1,29 @@
+<?php
+class Tienda {
+	private $idTienda;
+	private $nomTienda;
+	private $listaPlatos;
+
+	public function getIdTienda(){
+		return $this->idTienda;
+	}
+
+	public function getNomTienda(){
+		return $this->nomTienda;
+	}
+	
+	public function getListaPlatos(){
+		return $this->listaPlatos;
+	}
+	
+	public function notificaPedido(){
+		
+	}
+	
+	public function agregaACarroCompra(){
+		
+	}
+
+}
+
+?>
