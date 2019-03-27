@@ -1,0 +1,21 @@
+<?php
+class CentroComercial {
+	private $idCComercial;
+	private $nomCComercial;
+	private $listaTiendas;
+
+	public function getIdCComercial(){
+		return $this->idCComercial;
+	}
+
+	public function getNomCComercial(){
+		return $this->nomCComercial;
+	}
+	
+	public function getListaTiendas(){
+		return $this->listaTiendas;
+	}
+
+}
+
+?>
